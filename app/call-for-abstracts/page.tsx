@@ -94,7 +94,7 @@ export default function CallForAbstracts() {
                   Oral Presentation
                 </h3>
                 <p className="text-sm text-gray-600 mt-1">
-                  15 minutes presentation + 5 minutes Q&A
+                  10 minutes presentation + 3 minutes Q&A
                 </p>
               </div>
               <div className="bg-white p-4 rounded-md shadow-sm">
