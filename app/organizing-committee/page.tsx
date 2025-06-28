@@ -96,21 +96,21 @@ export default function OrganizingCommittee() {
                 {section.members.map((member, mIdx) => (
                   <div
                     key={mIdx}
-                    className="bg-gradient-to-br from-purple-50 via-white to-blue-100 rounded-xl shadow-xl flex flex-col items-center p-6 border-2 border-purple-200 hover:scale-105 transition-transform duration-200 group"
+                    className="w-72 h-72 bg-gradient-to-br from-lime-50 via-white to-emerald-100 rounded-2xl shadow-lg flex flex-col items-center p-6 border border-lime-200 hover:scale-105 transition-transform duration-200 group"
                   >
-                    <div className="w-28 h-28 mb-4 relative rounded-full overflow-hidden border-4 border-blue-600 bg-white shadow-md group-hover:border-purple-500">
+                    <div className="w-32 h-32 mb-4 relative rounded-full overflow-hidden border-4 border-emerald-600 bg-white shadow-md group-hover:border-lime-500">
                       <Image
                         src={member.photo}
                         alt={member.name}
                         fill
                         style={{ objectFit: 'cover' }}
-                        sizes="112px"
+                        sizes="128px"
                       />
                     </div>
-                    <div className="text-lg font-bold text-blue-900 text-center group-hover:text-purple-700 transition-colors">
+                    <div className="text-lg font-bold text-emerald-900 text-center group-hover:text-lime-700 transition-colors">
                       {member.name}
                     </div>
-                    <div className="text-sm text-gray-700 text-center mt-2 group-hover:text-blue-800 transition-colors">
+                    <div className="text-sm text-gray-700 text-center mt-2 group-hover:text-emerald-800 transition-colors">
                       {member.post}
                     </div>
                   </div>

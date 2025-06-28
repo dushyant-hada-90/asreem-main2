@@ -45,7 +45,7 @@ export default function CallForAbstracts() {
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 mr-2">•</span>
-                <span>Use Times New Roman, 12pt font, single spacing</span>
+                <span>Format of Abstract and Camera Ready Paper is given below in the template</span>
               </li>
             </ul>
           </div>
@@ -58,9 +58,9 @@ export default function CallForAbstracts() {
             <ul className="space-y-4">
               <li>
                 <div className="font-medium text-amber-900">
-                  Abstract Submission Opens
+                  {/* Abstract Submission Opens */}
                 </div>
-                <div className="text-gray-700">January 15, 2025</div>
+                {/* <div className="text-gray-700">January 15, 2025</div> */}
               </li>
               <li>
                 <div className="font-medium text-amber-900">
@@ -76,9 +76,9 @@ export default function CallForAbstracts() {
               </li>
               <li>
                 <div className="font-medium text-amber-900">
-                  Early Bird Registration
+                  {/* Early Bird Registration */}
                 </div>
-                <div className="text-gray-700">November 15, 2025</div>
+                {/* <div className="text-gray-700">November 15, 2025</div> */}
               </li>
             </ul>
           </div>
@@ -169,18 +169,21 @@ export default function CallForAbstracts() {
             queries, please contact the conference secretariat.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link
-              href="/submit-abstract"
+            <a
+              href="https://forms.gle/B8QHHTja4SRSoTw38"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-8 py-3 bg-green-600 text-white font-medium rounded-md hover:bg-green-700 transition-colors text-center"
             >
               Submit Abstract
-            </Link>
-            <Link
-              href="/download-template"
+            </a>
+            <a
+              href="/abstract-template.doc"
+              download
               className="px-8 py-3 border-2 border-green-600 text-green-600 font-medium rounded-md hover:bg-green-50 transition-colors text-center"
             >
               Download Template
-            </Link>
+            </a>
             <Link
               href="/registration"
               className="px-8 py-3 bg-amber-500 text-white font-medium rounded-md hover:bg-amber-600 transition-colors text-center"

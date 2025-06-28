@@ -40,9 +40,9 @@ export default function DatesAndFees() {
 
   const additionalInfo = [
     "All fees are inclusive of 18% GST as per institute norms.",
-    "Single-bedded shared accommodation can be availed upon prior request (at additional cost).",
-    "Payment can be made via NEFT/IMPS/UPI using the provided bank details.",
-    "After payment, please complete the registration through the Google Form and email the transaction details to asreem2026@ched.svnit.ac.in",
+    
+    "Payment can be made via NEFT / RTGS / IMPS / UPI using the provided bank details",
+    "After payment, please complete the registration through the Google Form to confirm your participation "
   ];
 
   return (
